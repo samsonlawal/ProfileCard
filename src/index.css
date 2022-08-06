@@ -1,0 +1,167 @@
+body {
+  background-color: #395b64;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#main {
+  background-color: #fdfff2;
+}
+
+.form-div {
+  width: 40%;
+  height: 510px;
+  background-color: #1a1b20;
+  float: left;
+  margin: 50px 0px 50px 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.form-div h1 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+input {
+  display: inline-block;
+  width: 40%;
+  margin: 5px 10px;
+  padding: 15px 0px 15px 15px;
+}
+
+.job {
+  display: block;
+  width: 87%;
+  padding: 15px 0px 15px 15px;
+  margin: 5px auto;
+}
+
+.job-desc {
+  display: block;
+  width: 89%;
+  height: 150px;
+  margin: 10px auto;
+}
+
+.submit {
+  width: 90%;
+  padding: 15px 0px 15px 15px;
+  background-color: #00d13f;
+  border: none;
+  font-size: 17px;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #01922c;
+}
+
+.main {
+  float: right;
+  margin: 50px 100px 50px 0px;
+  width: 30%;
+  padding: 20px 0px;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: #1a1b20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  color: white;
+  text-align: center;
+  width: 70%;
+}
+
+.img-div {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border: 3px solid antiquewhite;
+  border-radius: 50%;
+  background-color: #395b64;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+ */
+
+.initials {
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px 0px;
+}
+
+.title {
+  color: goldenrod;
+  font-size: 20px;
+  margin: 0px 0px;
+}
+
+.website {
+  font-size: 17px;
+  margin: 20px 0px;
+}
+
+.btn {
+  width: 100%;
+  height: 43px;
+  margin: 0px 0px 60px 0px;
+  /* padding: 0px 100px; */
+  font-size: 17px;
+  border: none;
+  border-radius: 2px;
+}
+
+#anc {
+  text-decoration: none;
+  color: #1a1b20;
+}
+
+button:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+.blue {
+  background-color: #457cc4;
+  color: white;
+}
+
+.about {
+  width: 85%;
+  color: white;
+  text-align: center;
+}
+
+.about h2 {
+  margin: 0px;
+}
+
+.about p {
+  color: rgb(197, 197, 197);
+}
